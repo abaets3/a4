@@ -288,12 +288,12 @@ def QHyperTuning():
 
 
 print("Running Cliff Walking VI/PI")
-#CliffWalkingExperiments()
+CliffWalkingExperiments()
 print("Running Frozen Lake VI/PI")
-#FrozenLakeExperiments()
+FrozenLakeExperiments()
 print("Running Frozen Lake Q Learning")
-#FrozenLakeQExperiments()
+FrozenLakeQExperiments()
 print("Running Cliff Walking Q Learning")
-#CliffWalkingQExperiments()
+CliffWalkingQExperiments()
 print("Running Hyper Tuning Experiment")
 QHyperTuning()
